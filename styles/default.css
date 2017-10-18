@@ -1,0 +1,98 @@
+
+@font-face {
+	font-family: 'Chirpus';
+	src: url('cicero sans negrita.ttf');
+}
+
+body {
+	font-family: "Chirpus", Arial, Helvetica, sans-serif;
+	background-color: rgb(249, 250, 254);
+}
+
+div.pageholder {
+	width: 670px; /* This seems ridiculously tight, but 670px is the width from the PDF. Full height is  approx. 435 px. */
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+
+div.bannertitle {
+	font-size: .8em;
+	color: black;
+	text-transform: lowercase;
+	padding: 0;
+	margin-bottom: 100px;
+}
+
+div.menu {
+	display: inline-block;
+	float: right;
+	width: 335px;
+}
+
+div.hirebutton {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: black;
+	color: rgb(249, 250, 254);
+	font-size: .9em;
+}
+
+div.menuitem {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 15px;
+	float: right;
+	color: rgb(117, 105, 105);
+	font-size: .9em;
+}
+
+div.maincontent {
+	height: 250px;
+	width: 100%;
+	background: transparent url("/images/circles.jpg") no-repeat center right;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 1.6em;
+	text-align: left;
+	color: black;
+	margin: 0 0 .8em 0;
+}
+
+p.splashpage {
+	font-size: .8em;
+	color: rgb(117, 105, 105);
+	line-height: auto;
+	padding-left: 15px;
+	border-left: 2px solid rgb(204, 204, 206);
+	box-sizing: border-box;
+	width: 50%;
+}
+
+div.scroll {
+	width: 100%;
+}
+
+div.scrollbutton {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: black;
+	color: rgb(249, 250, 254);
+	font-size: .9em;
+}
